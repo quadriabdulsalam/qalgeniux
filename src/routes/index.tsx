@@ -6,7 +6,7 @@ import {
   Figma, Globe2, Instagram, Layers3, Mail, Menu, MonitorSmartphone,
   Moon, Phone, Rocket, Sparkles, Sun, AtSign, WandSparkles, X,
 } from "lucide-react";
-import logoAsset from "@/assets/algeniux-logo-transparent.png.asset.json";
+import logoAsset from "@/assets/algbg.png";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
