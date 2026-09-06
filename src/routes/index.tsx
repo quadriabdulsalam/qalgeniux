@@ -68,7 +68,7 @@ function SectionHead({ eyebrow, title, body }: { eyebrow: string; title: string;
 }
 
 function Logo({ compact = false }: { compact?: boolean }) {
-  return <a href="#home" aria-label="Algeniux home" className="flex shrink-0 items-center"><img src={logoAsset.url} alt="Algeniux circuit brain logo" className={compact ? "h-10 w-auto" : "h-14 w-auto"} /></a>;
+  return <a href="#home" aria-label="Algeniux home" className="flex shrink-0 items-center"><img src={logoAsset} alt="Algeniux circuit brain logo" className={compact ? "h-10 w-auto" : "h-14 w-auto"} /></a>;
 }
 
 function ThemeToggle() {
